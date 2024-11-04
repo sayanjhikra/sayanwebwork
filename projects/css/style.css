@@ -1,0 +1,262 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+button{
+  padding: 5px 10px;
+}
+
+.maincol {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  background-image: linear-gradient(to right, #c5e1ea1f, #87c1fc3b);
+}
+.maincol h1 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.maincol-holder-top {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.table-heading1 {
+  text-align: left;
+  padding-bottom: 35px;
+  font-size: 20px;
+}
+.table1 {
+  width: 100%;
+}
+.table1 h3 {
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.table1 h4 {
+  padding: 11px 20px;
+  font-size: 14.5px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.maincol-holder-middle {
+  padding: 0;
+  margin: 0;
+  height: auto;
+
+  padding-bottom: 40px;
+}
+.maincol-holder-middle h3 {
+  font-size: 15.5px;
+  font-weight: 400;
+}
+.table-heading2 {
+  text-align: left;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+.maincol-holder-middle ul {
+  padding-left: 18px;
+  font-size: 14.5px;
+  font-weight: 400;
+  list-style-type: disclosure-closed;
+}
+.maincol-holder-middle li {
+  padding-left: 8px;
+}
+.maincol-holder-skill {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  padding-bottom: 40px;
+}
+.maincol-holder-skill ul {
+  padding-left: 18px;
+  line-height: 23px;
+  font-size: 14.5px;
+  font-weight: 400;
+  list-style-type: disclosure-closed;
+}
+.maincol-holder-skill li {
+  padding-left: 8px;
+}
+.maincol-holder-bottom {
+  padding: 0;
+  margin: 0;
+}
+
+.table-heading {
+  text-align: left;
+  padding-bottom: 35px;
+  font-size: 20px;
+}
+
+.maincol-holder {
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 36px;
+  padding-bottom: 50px;
+}
+
+.gtable {
+  border-spacing: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.maincol th {
+  text-align: center;
+  border: 1px solid #0000007a !important;
+  word-spacing: 5px;
+}
+.maincol td {
+  text-align: center;
+  border: 1.5px solid #0000007a !important;
+  border-bottom: none !important;
+}
+.maincol tr {
+  text-align: center;
+  border: 1.5px solid #0000007a !important;
+}
+.maincol a:hover {
+  text-decoration: none;
+}
+
+td h2 {
+  font-size: 16px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+td h5 {
+  font-size: 16px;
+  padding: 14px;
+  font-weight: 500;
+}
+
+td h4 {
+  font-size: 13px;
+  padding-top: 2px;
+  padding-bottom: 12px;
+  font-weight: 400;
+}
+
+.maincol .technology {
+  padding-top: 30px;
+  font-size: 15px;
+}
+.maincol .technology2 {
+  padding-top: 22px;
+  font-size: 15px;
+}
+
+.maincol .view {
+  padding-top: 29px;
+  font-size: 15px;
+  font-family: "Caveat", sans-serif;
+}
+.maincol .view2 {
+  padding-top: 21px;
+  font-size: 15px;
+  font-family: "Caveat", sans-serif;
+}
+
+.maincol .no {
+  padding-top: 29px;
+  padding-inline: 20px;
+}
+.maincol .no2 {
+  padding-top: 21px;
+  padding-inline: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .table > thead > tr > th {
+    padding: 1%;
+  }
+  .table1 {
+    width: 100%;
+  }
+
+  #name {
+    width: 22%;
+  }
+  .table1 h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .table1 h4 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .maincol-holder-middle ul {
+    padding-left: 7%;
+  }
+  .maincol-holder-skill ul {
+    padding-left: 7%;
+  }
+
+  .table th {
+    font-size: 14px;
+  }
+  #view {
+    width: 12%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .table > thead > tr > th {
+    padding: 1%;
+  }
+  .table1 {
+    width: 100%;
+  }
+  #name {
+    width: 22%;
+  }
+  .table1 h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .table1 h4 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .maincol-holder-middle ul {
+    padding-left: 7%;
+  }
+  .maincol-holder-skill ul {
+    padding-left: 7%;
+  }
+
+  .table th {
+    font-size: 14px;
+  }
+  #view {
+    width: 12%;
+  }
+}
+
+
+@media screen and (max-device-width: 576px) {
+  .maincol .no {
+    padding-inline: 10px;
+  }
+  .maincol .no2 {
+    padding-inline: 10px;
+  }
+}
