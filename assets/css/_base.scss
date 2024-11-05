@@ -5,12 +5,9 @@ ul {
 }
 body {
   font-family: "Inter", serif;
-  background: var(--theme-bg-color);
-}
-
-main {
   background: url("../images/home-light-background-gradient-top.svg"),
-    url("../images/home-dark-background-gradient-bottom.svg");
+    url("../images/home-dark-background-gradient-bottom.svg"),
+    var(--theme-bg-color);
   background-repeat: no-repeat, no-repeat;
   background-position: top, bottom;
   padding-top: 32px;

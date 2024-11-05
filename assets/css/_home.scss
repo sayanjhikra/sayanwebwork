@@ -1,3 +1,6 @@
+// .home-page {
+// }
+
 /* ///////////////////////////////////////////////////////// */
 /* ////////////////// custom css //////////////////////// */
 .page-heading {
@@ -286,50 +289,6 @@
   }
 }
 
-/* ////////////// footer ///////////// */
-.footer-bg {
-  padding-block: 42px;
-  & .txt-d {
-    color: var(--theme-color-mobile-a);
-    font-size: 14px;
-    font-weight: 500;
-  }
-}
-.footer {
-  row-gap: 48px;
-  & .m-block {
-    gap: 10px;
-  }
-  & .link-block {
-    column-gap: 120px;
-    row-gap: 60px;
-    & ul {
-      gap: 12px;
-    }
-    & .txt-a {
-      font-size: 18px;
-      font-weight: 700;
-      margin-bottom: 32px;
-    }
-    & .txt-c {
-      color: var(--theme-color-b);
-      font-size: 16px;
-      font-weight: 400;
-      transition: 0.5s ease-in-out;
-      display: block;
-      &:hover {
-        color: aqua;
-      }
-    }
-  }
-}
-
-.footer-bg .copyright {
-  margin-top: 30px;
-  & .txt-d {
-    font-weight: 400;
-  }
-}
 /* ///////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////// */
 /* ////////////// contact ///////////// */
@@ -410,18 +369,6 @@
     margin-bottom: 70px;
     & .btn-a {
       width: 100%;
-    }
-  }
-
-  /*  */
-  .footer-bg {
-    padding-bottom: 100px;
-  }
-  .footer {
-    & .link-block {
-      & ul .txt-a {
-        margin-bottom: 20px;
-      }
     }
   }
 }
