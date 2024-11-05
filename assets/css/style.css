@@ -141,7 +141,7 @@ button {
 }
 @media screen and (max-device-width: 576px) {
   .footer-bg {
-    padding-bottom: 100px;
+    padding-bottom: 24px;
   }
 }
 
