@@ -26,8 +26,11 @@
     }
   }
   @media screen and (max-device-width: 576px) {
-    .link-block ul .txt-a {
-      margin-bottom: 20px;
+    .link-block {
+      column-gap: 80px;
+      ul .txt-a {
+        margin-bottom: 20px;
+      }
     }
   }
 }

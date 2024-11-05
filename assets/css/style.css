@@ -116,6 +116,10 @@ button {
   color: aqua;
 }
 @media screen and (max-device-width: 576px) {
+  .footer .link-block {
+    -moz-column-gap: 80px;
+         column-gap: 80px;
+  }
   .footer .link-block ul .txt-a {
     margin-bottom: 20px;
   }
