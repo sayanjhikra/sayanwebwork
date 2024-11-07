@@ -19,7 +19,7 @@
     <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
     <!-- Swiper JS -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
 
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/style-min.css">
@@ -41,15 +41,15 @@
                             <img src="assets/images/logo.png" alt="" class="logo">
                         </a>
                     </li>
-                    <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="projects/">Projects</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
-                    <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects/">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
                 </ul>
                 <ul class="d-none d-lg-flex nav-icon-desktop">
                     <li>
@@ -299,10 +299,14 @@
                         class="profile-picture img-fluid d-none d-lg-block"> -->
 
 
-                        <video width="280px" height="280px" id="my_video" autoplay muted>
-                            <source src="./assets/videos/avtar.webm" type="video/webm" />
-                            <!-- <source src="./assets/videos/avtar2.mp4" type="video/mp4" /> -->
-                        </video>
+                    <video width="280px" height="280px" id="my_video" autoplay muted class="d-none d-lg-block">
+                        <source src="./assets/videos/avtar.webm" type="video/webm" />
+                        <!-- <source src="./assets/videos/avtar2.mp4" type="video/mp4" /> -->
+                    </video>
+
+                    <audio id="my_audio">
+                        <source src="./assets/videos/audio.mp3" type="audio/mpeg">
+                    </audio>
                 </div>
             </div>
         </section>
@@ -428,7 +432,6 @@
                 Get in touch
             </a>
         </section> -->
-
     </main>
 
     <!-- footer --- start -->
@@ -475,14 +478,29 @@
         crossorigin="anonymous"></script> -->
 
     <!-- Swiper JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 
     <!-- AOS -->
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
     <!-- <script>
         AOS.init();
     </script> -->
+
+
+    <!-- <script>
+        // audio auto play
+        document.addEventListener("DOMContentLoaded", function () {
+            const avtarVideo = document.getElementById("my_audio");
+            setTimeout(() => {
+                avtarVideo.muted = false;
+            }, 100);
+
+
+        });
+    </script> -->
+
     <script src="./assets/js/program.js"></script>
+
 </body>
 
 </html>
