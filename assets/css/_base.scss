@@ -32,3 +32,48 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ////////////////// custom css //////////////////////// */
+.btn-a {
+  display: flex;
+  height: 60px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 9px;
+  color: #fff;
+  background: var(
+    --gradient-dark-gradient,
+    linear-gradient(180deg, #1a1a1a 0%, #131313 100%)
+  );
+  box-shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 4px 0px rgba(255, 255, 255, 0.08) inset,
+    0px 1px 2px 0px rgba(255, 255, 255, 0.02) inset;
+}
+.btn-b {
+  display: flex;
+  height: 60px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 9px;
+  color: var(--theme-color-c);
+  background: var(--theme-color-a-o);
+}
+.btn-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--theme-color-a);
+  transition: 0.3s ease-in-out;
+  &:hover {
+    gap: 16px;
+  }
+}
+.vl {
+  width: 1px;
+  background: rgba(0, 0, 0, 0.26);
+}

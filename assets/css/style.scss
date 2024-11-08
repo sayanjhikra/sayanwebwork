@@ -50,12 +50,23 @@
   --dark-white-2: rgba(255, 255, 255, 0.25);
   --gradient-dark-gradient: linear-gradient(180deg, #1a1a1a 0%, #131313 100%);
 }
+
 //fonts
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(../fonts/UcCo3FwrK3iLTcviYwY.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 @import "./base";
 @import "./header";
 @import "./footer";
+@import "./typographics";
 
 // == Pages == //
 @import "./home"; //Home page
